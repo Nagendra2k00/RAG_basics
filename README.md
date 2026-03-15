@@ -131,6 +131,14 @@ Edit the query or retrieval options (e.g. `k`, `score_threshold`) in `retrieval_
 
 ---
 
+
+## 👤 Author
+
+**Nagendra Kumar K S**
+
+- GitHub: [@Nagendra Kumar K S](https://github.com/Nagendra2k00)
+- LinkedIn: [@Nagendra Kumar K S](https://linkedin.com/in/nagendrakumarks)
+
 ## License
 
 Use and modify as needed.

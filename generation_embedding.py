@@ -15,9 +15,7 @@ def _get_embedding_model() -> Embeddings:
         model = os.environ.get("OLLAMA_EMBEDDING_MODEL", "nomic-embed-text")
         return OllamaEmbeddings(model=model)
 
-    raise ValueError(
-        f"Unknown EMBEDDING_PROVIDER='{provider}' for model {model}"
-    )
+    raise ValueError(f"Unknown EMBEDDING_PROVIDER='{provider}'.")
 
 
 def create_vector_database(chunks, persist_directory="db/chroma_db"):

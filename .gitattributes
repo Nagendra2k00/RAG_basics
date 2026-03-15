@@ -1,0 +1,2 @@
+# Ensure Markdown renders correctly on GitHub (LF line endings)
+*.md text eol=lf
